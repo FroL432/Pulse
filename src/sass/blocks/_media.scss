@@ -1,25 +1,18 @@
 
-@media (max-width: 1200) {
-    .promo {
-        &__header {
-            padding-right: 20px;
-            color: black; 
-        }
-
+@media (max-width: 1200px) {
+    .header {
+        padding-right: 20px;
     }
-
-    // .header {
-    //     padding-right: 20px;
-    //     margin-top: 20px;
-    //     color: black; 
-        //     &__official {
-        //         padding-right: 20px;
-        // }
-    // }
-    
-
-
 }
+@media (max-width: 991px) {
+    
+}
+
+
+
+
+
+
 
 
 
