@@ -27,6 +27,11 @@
         
     }
     }
+    .advantage {
+        &__text {
+            width: 255px;
+        }
+    }
 }
 
 @media (max-width: 768px) {
@@ -53,6 +58,15 @@
         }
         &__icons {
             padding-right: 0;
+        }
+    }
+    .advantage {
+        &__wrapper {
+            flex-direction: column;
+            justify-content: center;
+        }
+        &__block {
+            margin-top: 20px;
         }
     }
 }
@@ -91,6 +105,20 @@
             margin-left: 20px;
         }
     }
+    .advantage {
+        &__wrapper {
+            flex-direction: column;
+            justify-content: center;
+        }
+        &__block {
+            margin-top: 20px;
+        }
+        .title {
+            font-size: 28px;
+        }
+    }
+
+
 }
 
 
@@ -128,6 +156,15 @@
         &_main {
             width: 250px;
             margin-left: 20px;
+        }
+    }
+    .advantage {
+        &__wrapper {
+            flex-direction: column;
+            justify-content: center;
+        }
+        &__block {
+            margin-top: 20px;
         }
     }
 }
