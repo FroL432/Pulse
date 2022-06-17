@@ -24,12 +24,22 @@
         &_main {
             margin-right: 20px;
         }
-        
-    }
+        }
     }
     .advantage {
         &__text {
             width: 255px;
+        }
+    }
+    .consultation {
+        .title_left {
+            margin-left: 40px;
+        }
+        &__descr {
+            margin-left: 40px;
+        }
+        .feed-form {
+            margin-left: 40px;
         }
     }
 }
@@ -67,6 +77,17 @@
         }
         &__block {
             margin-top: 20px;
+        }
+    }
+    .consultation {
+        .title_left {
+            text-align: center;
+        }
+        &__descr {
+            text-align: center;
+        }
+        .feed-form {
+            margin-left: 20px;
         }
     }
 }
@@ -117,6 +138,18 @@
             font-size: 28px;
         }
     }
+    .consultation {
+        .title_left {
+            text-align: center;
+        }
+        &__descr {
+            text-align: center;
+        }
+        .feed-form {
+            margin-left: 20px;
+        }
+    }
+    
 
 
 }
@@ -167,6 +200,25 @@
             margin-top: 20px;
         }
     }
+    .consultation {
+        .title_left {
+            text-align: center;
+            font-size: 30px;
+            line-height: 30px;
+        }
+        &__descr {
+            text-align: center;
+            padding: 0 10px;
+            font-size: 18px;
+        }
+        .feed-form {
+            width: 280px;
+            margin-left: 20px;
+            font-size: 19px;
+            line-height: 21px;  
+        }
+    }
+
 }
 
 
