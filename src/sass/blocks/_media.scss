@@ -42,6 +42,21 @@
             margin-left: 40px;
         }
     }
+    .carousel {
+        &__inner {
+            width: 768px;
+            height: 768px;
+            // img {
+            //     // width: 100%;
+            //     // margin: 0 auto;
+            // }
+        }
+    }
+    .catalog {
+        &__content {
+            justify-content: space-around;
+        }
+    }
 }
 
 @media (max-width: 768px) {
@@ -94,10 +109,16 @@
         &__inner {
             width: 550px;
             height: 550px;
-            img {
-                // width: 100%;
-                margin: 0 auto;
-            }
+            // img {
+            //     // width: 100%;
+            //     margin: 0 auto;
+            // }
+        }
+    }
+    .catalog {
+        &__tab {
+            width: 160px;
+            font-size: 15px;
         }
     }
 }
@@ -151,6 +172,8 @@
     .consultation {
         .title_left {
             text-align: center;
+            line-height: 40px;
+            font-size: 30px;
         }
         &__descr {
             text-align: center;
@@ -164,10 +187,18 @@
         &__inner {
             width: 300px;
             height: 300px;
-            img {
-                // width: 100%;
-                margin: 0 auto;
-            }
+            // img {
+            //     // width: 100%;
+            //     // margin: 0 auto;
+            // }
+        }
+    }
+    .catalog {
+        &__tabs {
+            display: block;
+        }
+        &__tab {
+            margin: 10px auto ;
         }
     }
 }
@@ -236,6 +267,11 @@
             line-height: 21px;  
         }
     }
+    .catalog-item {
+        width: 300px;
+        padding: 20px 10px 26px 10px;
+        }
+    
 
 }
 
