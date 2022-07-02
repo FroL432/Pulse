@@ -44,8 +44,8 @@
     }
     .carousel {
         &__inner {
-            width: 768px;
-            height: 768px;
+            width: 750px;
+            height: 750px;
             // img {
             //     // width: 100%;
             //     // margin: 0 auto;
@@ -191,12 +191,14 @@
             text-align: center;
             line-height: 40px;
             font-size: 30px;
+            margin: 0 5px;
         }
         &__descr {
             text-align: center;
+            margin: 10px 5px;
         }
         .feed-form {
-            margin-left: 20px;
+            margin: 30px auto;
             justify-content: center;
         }
     }
@@ -307,13 +309,16 @@
     .consultation {
         .title_left {
             text-align: center;
-            font-size: 30px;
-            line-height: 30px;
+            font-size: 25px;
+            line-height: 25px;
+            margin: 0 5px;
         }
         &__descr {
             text-align: center;
             padding: 0 10px;
-            font-size: 18px;
+            font-size: 16px;
+            line-height: 16px;
+            margin: 10px 5px;
         }
         .feed-form {
             width: 280px;

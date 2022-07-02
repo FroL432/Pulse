@@ -48,8 +48,12 @@
         color: #FFFFFF;
         a {
             text-transform: uppercase;
-            text-decoration: underline;
+            text-decoration: none;
             color: #FFFFFF;
+            &:hover {
+                text-decoration: underline;
+                color: #afafaf
+            }
         }
     }
 }

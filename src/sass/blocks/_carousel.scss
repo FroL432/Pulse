@@ -25,4 +25,60 @@
         right: -66px;
         left: auto;
     }
+    // .slick__nav {
+    //     margin: 0 auto;
+    // }
+    // .slick-dots {
+    //     list-style: none;
+    //     display: flex;
+    //     justify-content: center;
+    //     padding: 0;
+    // }
+
+    // .slick-dots button {
+    //     border: none;
+    //     height: 30px;
+    //     width: 30px;
+    //     border-radius: 15px;
+    //     background: rgb(216, 216, 216);
+    //     outline: none;
+    //     cursor: pointer;
+    //     margin: 0 1px;
+    //     transition: width .2s linear;
+    // }
+    // .slick-active {
+    // text-align: center;
+    // }
+    // .slick-active button{
+    //     width: 60px;
+    //     background: rgb(255, 0, 43);
+    // }
+
+    .slick__nav {
+        margin: 0 auto;
+    }
+    .slick-dots {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        padding: 0;
+    }
+    .slick-dots button {
+        border: none;
+        height: 30px;
+        width: 30px;
+        border-radius: 15px;
+        background: purple;
+        outline: none;
+        cursor: pointer;
+        margin: 0 1px;
+        transition: width .2s linear;
+    }
+    .slick-active {
+        text-align: center;
+    }
+    .slick-active button{
+        width: 60px;
+        background: pink;
+    }
 }

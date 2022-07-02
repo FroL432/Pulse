@@ -1,10 +1,12 @@
 .footer {
     height: 630px;
     position: relative;
-    .gm-style .place-card-large {
-        padding: 9px 4px 9px 11px;
-        display: none;
+    .iflame {
+        .style {
+            display: none;
+        }
     }
+
     &__info {
         position: absolute;
         top: 0;

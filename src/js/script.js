@@ -2,8 +2,12 @@
 $(document).ready(function(){
     $('.carousel__inner').slick({
         infinite: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
         speed: 1200,
         adaptiveHeight: true,
+        appendDots: $(".slick__nav"),
+        dotsClass: 'slick-dots slider__dots',
         // autoplay: true,
         // autoplaySpeed: 2000,
         // fade: true,
@@ -16,20 +20,10 @@ $(document).ready(function(){
             {
                 breakpoint: 992,
                 settings: {
-                    dots: false,
-                    arrows: false
+                    arrows: false,
+                    dots: true,
                 }
             }
-            // {
-            //     breakpoint: 768,
-            //     settings: {
-            //     }
-            // }
-            // {
-            //     breakpoint: 575,
-            //     settings: {
-            //     }
-            // }
         ]
     });
 
