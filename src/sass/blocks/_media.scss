@@ -57,6 +57,14 @@
             justify-content: space-around;
         }
     }
+    .footer {
+        margin-top: 100px;
+        &__info {
+            width: 350px;
+            height: 220px;
+            padding: 20px 15px;
+        }
+    }
 }
 
 @media (max-width: 768px) {
@@ -121,6 +129,15 @@
             font-size: 15px;
         }
     }
+    .footer {
+        margin-top: 380px;
+        &__info {
+            width: 350px;
+            height: 220px;
+            padding: 20px 15px;
+        }
+    }
+    
 }
 
 
@@ -221,6 +238,24 @@
             text-align: center;
         }
     }
+    .footer {
+        margin-top: 760px;
+        &__info {
+            width: 310px;
+            height: 160px;
+            padding: 10px 10px;
+        }
+        &__addr {
+            font-size: 15px;
+            line-height: 15px;
+            margin-bottom: 20px;
+        }
+        &__phone {
+            font-size: 15px;
+            line-height: 15px;
+            margin-bottom: 20px;
+        }
+    }
 }
 
 
@@ -313,6 +348,9 @@
             margin: 10px auto 0;
             text-align: center;
         }
+    }
+    .footer {
+        margin-top: 760px;
     }
     
 

@@ -1,5 +1,5 @@
 .comments {
-    height: 920px;
+    height: 1000px;
     margin-bottom: 50px;
     &__content{
         list-style-type: none;
@@ -13,8 +13,10 @@
         height: 169px;
     }
     &__wrapper {
-        margin-left: 60px;
         width: 680px;
+        height: 100%;
+        margin-left: 60px;
+        margin-bottom: 50px;
         
     }
     &__header {
