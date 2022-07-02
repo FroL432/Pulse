@@ -201,6 +201,26 @@
             margin: 10px auto ;
         }
     }
+    .comments {
+        &__content {
+            padding-left: 0;
+        }
+        &__list {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin: 20px auto 0;
+        }
+        &__photo {
+            margin: 0 auto;
+        }
+        &__wrapper {
+            width: 90%;
+            padding: 0 5px;
+            margin: 10px auto 0;
+            text-align: center;
+        }
+    }
 }
 
 
@@ -271,6 +291,29 @@
         width: 300px;
         padding: 20px 10px 26px 10px;
         }
+    .comments {
+        .title {
+            font-size: 25px;
+        }
+        &__content {
+            padding-left: 0;
+        }
+        &__list {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin: 20px auto 0;
+        }
+        &__photo {
+            margin: 0 auto;
+        }
+        &__wrapper {
+            width: 300px;
+            padding: 0 5px;
+            margin: 10px auto 0;
+            text-align: center;
+        }
+    }
     
 
 }
