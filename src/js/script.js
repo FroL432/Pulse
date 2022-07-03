@@ -2,12 +2,8 @@
 $(document).ready(function(){
     $('.carousel__inner').slick({
         infinite: true,
-        slidesToShow: 1,
-        slidesToScroll: 1,
         speed: 1200,
         adaptiveHeight: true,
-        appendDots: $(".slick__nav"),
-        dotsClass: 'slick-dots slider__dots',
         // autoplay: true,
         // autoplaySpeed: 2000,
         // fade: true,
@@ -109,4 +105,6 @@ $(document).ready(function(){
     valideForms('#consultation-form');
     valideForms('#consultation form');
     valideForms('#order form');
+
+    $('input[name=phone]').mask("+7 (999) 999-99-99");
 });
