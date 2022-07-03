@@ -8,5 +8,16 @@
         font-size: 20px;
         line-height: 30px;
     }
+    .error {
+        border: 1px solid red;
+    }
+    label.error {
+        font-weight: 700;
+        font-size: 14px;
+        border: none;
+        text-align: center;
+        margin-bottom: 15px;
+        color: #fff;
+    }
     
 }
