@@ -23,6 +23,9 @@
         line-height: 21px;
         color: $main-color ;
         cursor: pointer;
+        &:hover {
+            box-shadow: 3px 3px 20px rgb(29, 231, 29);
+        }
     }
     &__subtitle {
         font-weight: 700;
