@@ -1,22 +1,34 @@
-@import 'base/variables';
-*{
-    font-family: 'Museo Sans Cyrl', sans-serif;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
 }
-.container  {
-    max-width: 950px;
-    margin: 0 auto;
+
+.grid-container {
+    width: 1140px;
+    margin: 82px auto 0 auto;
+    display: grid;
+    // grid-template-columns: repeat(4, 240px);
+    grid-template-columns: repeat(4, minmax(240px, auto));
+    grid-template-rows: repeat(2, minmax(260px, auto));
+    grid-auto-rows: 260px;
+    gap: 60px;
 }
-@import 'blocks/promo';
-@import 'blocks/header';
-@import 'blocks/buttons';
-@import 'blocks/advantage';
-@import 'blocks/title';
-@import 'blocks/consultation';
-@import 'blocks/forms';
-@import 'blocks/carousel';
-@import 'blocks/catalog';
-@import 'blocks/comments';
-@import 'blocks/footer';
-@import 'blocks/modal';
-@import 'blocks/pageup';
-@import 'blocks/media';
+
+.news-item {
+    &__img {
+        width: 100%;
+    }
+    &__descr {
+        margin-top: 15px;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+    }
+}
+
+// #cherries_1 {
+//     grid-row: 1/3;
+//     grid-column: 1/3;
+// }
